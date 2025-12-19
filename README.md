@@ -159,9 +159,5 @@ Web Deployment
 
 </div>
 
-<footer>
-    🚀 Credit Card Default Prediction Project | Machine Learning
-</footer>
-
 </body>
 </html>
