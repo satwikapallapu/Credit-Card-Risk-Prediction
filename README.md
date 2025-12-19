@@ -2,63 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Credit Card Default Prediction - ML Project</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
-            margin: 40px;
-            background-color: #f9f9f9;
-            color: #222;
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        h2 {
-            color: #1f6feb;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-top: 40px;
-        }
-        h3 {
-            color: #34495e;
-            margin-top: 25px;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        .box {
-            background: #ffffff;
-            padding: 20px;
-            border-left: 5px solid #1f6feb;
-            margin: 20px 0;
-        }
-        .diagram {
-            background: #eef3ff;
-            padding: 15px;
-            border-radius: 6px;
-            font-family: monospace;
-            white-space: pre-wrap;
-        }
-        .highlight {
-            color: #d35400;
-            font-weight: bold;
-        }
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            font-size: 14px;
-            color: #555;
-        }
-    </style>
+   
 </head>
 <body>
 
-<h1>💳 Credit Card Default Prediction using Machine Learning</h1>
+<h1>💳 Credit Card Risk Prediction using Machine Learning</h1>
 
 <div class="box">
     <p>
@@ -165,20 +113,6 @@ Web Deployment
     </ul>
 </div>
 
-<h2>📈 ROC & AUC Curve Analysis</h2>
-<div class="diagram">
-True Positive Rate (TPR)
-│
-│        Logistic Regression
-│        ───────────────────
-│       /￣￣￣￣￣￣￣￣￣
-│      /
-│     /
-│    /
-│   /
-│__/________________________ False Positive Rate (FPR)
-</div>
-
 <ul>
     <li>ROC curves of all models were compared</li>
     <li><b>Logistic Regression</b> showed the best AUC score</li>
@@ -219,25 +153,10 @@ True Positive Rate (TPR)
 <div class="box">
     <p>
         This project demonstrates a complete <b>end-to-end Machine Learning solution</b> for 
-        <span class="highlight">Credit Card Default Prediction</span>, starting from raw data preprocessing 
-        to final deployment as a web application.
+        <span class="highlight">Credit Card Risk Prediction</span>, starting from raw data preprocessing 
+        to final deployment as a web application. 
     </p>
 
-    <p>
-        Proper data cleaning, missing value handling using random sampling, outlier treatment, feature selection,
-        and data balancing played a crucial role in improving model reliability and performance.
-    </p>
-
-    <p>
-        Multiple classification models were trained and evaluated using accuracy metrics, classification reports,
-        and ROC–AUC curves. Among all models, <span class="highlight">Logistic Regression</span> achieved the best
-        overall performance and was selected as the final model.
-    </p>
-
-    <p>
-        The trained model was saved using a Pickle file and successfully deployed, enabling real-time predictions.
-        This project highlights how Machine Learning models can be transformed into practical, real-world solutions.
-    </p>
 </div>
 
 <footer>
